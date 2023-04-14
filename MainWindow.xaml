@@ -14,6 +14,13 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        <TextBox x:Name="txtNum1" HorizontalAlignment="Left" Margin="54,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNum2" HorizontalAlignment="Left" Margin="54,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="39,156,0,0" VerticalAlignment="Top" Width="135" Click="btnAdd_Click"/>
+        <Button x:Name="btnDivide" Content="Divide" HorizontalAlignment="Left" Margin="39,293,0,0" VerticalAlignment="Top" Width="135" Click="btnDivide_Click"/>
+        <Button x:Name="btnMulti" Content="Multi" HorizontalAlignment="Left" Margin="39,243,0,0" VerticalAlignment="Top" Width="135" Click="btnMulti_Click"/>
+        <Button x:Name="btnSub" Content="Subtract" HorizontalAlignment="Left" Margin="39,197,0,0" VerticalAlignment="Top" Width="135" Click="btnSub_Click"/>
+        <Button x:Name="btnEquals" Content="Equals" HorizontalAlignment="Left" Margin="243,197,0,0" VerticalAlignment="Top" Height="66" Width="70" Click="btnEquals_Click"/>
 
     </Grid>
 </Window>
